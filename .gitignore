@@ -1,0 +1,12 @@
+/shared
+/local-config.php
+/sql-dump-*.sql
+/db-sync
+/content/upgrade/
+/content/wp-rocket-config/
+/content/cache/
+cli-config.php
+.DS_Store*~
+*~
+*.orig
+*.swp
