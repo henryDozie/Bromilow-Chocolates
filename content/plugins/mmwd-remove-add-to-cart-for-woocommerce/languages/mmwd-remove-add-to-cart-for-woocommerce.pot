@@ -1,0 +1,39 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MMWD Remove Add To Cart for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-16 15:27+0100\n"
+"PO-Revision-Date: 2017-08-16 15:27+0100\n"
+"Last-Translator: Andy McGregor <info@mcgregormedia.co.uk>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mmwd-remove-add-to-cart-for-woocommerce.php:108
+msgid ""
+"MMWD Remove Add To Cart for WooCommerce requires WooCommerce to run. Please "
+"install and activate WooCommerce."
+msgstr ""
+
+#: mmwd-remove-add-to-cart-for-woocommerce.php:152
+msgid "Remove Add to Cart"
+msgstr ""
+
+#: mmwd-remove-add-to-cart-for-woocommerce.php:191
+#: mmwd-remove-add-to-cart-for-woocommerce.php:199
+msgid "Remove Add to Cart buttons"
+msgstr ""
+
+#: mmwd-remove-add-to-cart-for-woocommerce.php:193
+msgid ""
+"Remove all Add to Cart buttons without affecting anything else hooked into "
+"the Add to Cart actions. Removing prices may not work with themes that do "
+"not use the standard WooCommerce hooks."
+msgstr ""
+
+#: mmwd-remove-add-to-cart-for-woocommerce.php:206
+msgid "Remove prices"
+msgstr ""

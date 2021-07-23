@@ -1,0 +1,3 @@
+url: v2.bromilow.client.tagonline.com
+require:
+    - cli-config.php
