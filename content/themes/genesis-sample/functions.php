@@ -740,22 +740,7 @@ add_action( 'woocommerce_product_query', 'bromilow_pre_get_posts_query' );
  * just won't show it, choose an appropriate action to add it to accordingly
  * @param $checkout
  */
-function bromilow_show_me_the_checkout_captcha($checkout) {
-	echo '<div class="g-recaptcha" data-sitekey="6Le5ya0UAAAAAJDc3WzLFt_uGJwQLlqTiYMlhee0"></div>';
-}
-add_action('woocommerce_checkout_order_review', 'bromilow_show_me_the_checkout_captcha', 18);
 /**
  * Validate reCaptcha
  */
-function bromilow_process_recaptcha() {
-
-	$postdata = $_POST['g-recaptcha-response'];
-	$verified_recaptcha = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=6Le5ya0UAAAAALaXUdiv6yuhtHgDkTZ7DXIR5JPu&response='.$postdata);
-	$response = json_decode($verified_recaptcha);
-
-	if(!$response->success) {
-		wc_add_notice('Please verify that you are not a robot' ,'error');
-	}
-}
-add_action('woocommerce_checkout_process', 'bromilow_process_recaptcha');
 
